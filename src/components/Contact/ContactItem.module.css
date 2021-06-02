@@ -1,0 +1,12 @@
+.item_contact {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+.item_button {
+  margin-right: 20px;
+  width: 100px;
+  padding: 2px 2px;
+}

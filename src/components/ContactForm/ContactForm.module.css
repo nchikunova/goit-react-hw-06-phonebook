@@ -1,0 +1,37 @@
+.item_form {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 12px;
+}
+.item_input {
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.label_data {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.item_contact {
+  justify-content: space-between;
+}
+
+.item_text_filter {
+  margin-right: 20px;
+}
+
+.item_contact {
+  display: flex;
+  vertical-align: baseline;
+  align-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.btn_submit {
+  width: 110px;
+}

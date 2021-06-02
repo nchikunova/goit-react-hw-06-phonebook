@@ -1,0 +1,11 @@
+.item_filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item_element {
+  width: 130px;
+}
+.text_filter {
+  margin-right: 12px;
+}
