@@ -28,8 +28,4 @@ const mapDispatchToProps = dispatch => ({
   onChange: e => dispatch(actions.filterContacts(e.target.value)),
 });
 
-//Не срабатывает фильтр, срабатывает добавление такого же контакта, что существует уже
-
-// Отрабатывает добавление контакта и локалсторедж;
-
 export default connect(mapStateToProps, mapDispatchToProps)(Filter);
