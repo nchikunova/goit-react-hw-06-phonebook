@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import s from './ContactForm.module.css';
 import PropTypes from 'prop-types';
-// import { v4 as uniqueId } from 'uuid';
 import { connect } from 'react-redux';
 import actions from '../redux/contacts-actions';
-// import { toast } from 'react-toastify';
 
 
 class ContactForm extends Component {
@@ -78,10 +76,6 @@ class ContactForm extends Component {
     );
   }
 }
-
-// const mapStateToProps = state => ({
-//   contacts: state.contacts.contactsItems,
-// });
 
 const mapDispatchToProps = dispatch => ({
   onSubmit: (name, number) => dispatch(actions.addContact(name, number)),
